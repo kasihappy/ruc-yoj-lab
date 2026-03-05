@@ -13,3 +13,11 @@ guide.md
 
 # 不忽略.gitignore本身
 !.gitignore
+
+# C语言编译相关（可选）
+*.d
+*.o
+*.obj
+*.elf
+*.exe
+*.out
