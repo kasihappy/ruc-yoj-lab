@@ -1,0 +1,15 @@
+# 忽略所有文件
+*
+
+# 不忽略目录（这样才能访问目录下的文件）
+!*/
+
+# 取消忽略C源文件和Markdown文件
+!*.c
+!*.md
+
+# 排除guide.md
+guide.md
+
+# 不忽略.gitignore本身
+!.gitignore
